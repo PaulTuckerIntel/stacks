@@ -64,7 +64,7 @@ public class Stacks {
         if (stack.isEmpty()) {
             System.out.println("The stack is empty");
             GUI.Output.setText("The stack is empty");
-        }else if(stack.contains("")){
+        }else if(!stack.contains("")){
             System.out.println("There are "+stack.size()+" items");
             GUI.Output.setText("There are "+stack.size()+" items");
         }
