@@ -46,6 +46,7 @@ public class Stacks {
     public static String pop(){
         if (stack.isEmpty()) {
             System.out.println("Nothing in the list");
+            GUI.Output.setText("Nothing in the list");
             System.out.println(stack);
         }else{
             stack.remove(stack.size()-1);
